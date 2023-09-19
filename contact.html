@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./static/style.css" rel="stylesheet" /> 
+    <title>sean/contact</title>
+</head>
+<body>
+    <div class="page-wrap">
+      <nav id="navbar" class="nav">
+        <div class="title">
+          <h5><a href="index.html">/yak.sean</a></h5>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="about.html">i</a>
+          </li>
+          <li>
+            <a href="worx.html">work</a>
+          </li>
+          <li>
+            <a href="contact.html">hmu</a>
+          </li>
+        </ul>
+      </nav>
+    <div id="contact" class="contact">
+      <h1 id="contact-h1"><span class="highlight-container2"><span class="highlight2"></span>CONTACT</span></span></h1>
+      <form id="contact-form" action="contact.php" method="post" enctype="text/plain">
+        <fieldset>
+          <label id="name-label" for="name"><input id="name" name="name" type="text" placeholder="Name*" required /></label>
+          <label id="email-label" for="email"><input id="email" name="email" type="email" placeholder="Email*" required /></label>
+          <label id="subject-label" for="subject"><input id="subject" name="subject" type="subject" placeholder="Subject" required /></label>
+          <textarea id="message" name="message" rows="6" cols="66" placeholder="Message" ></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit"></button>
+      </form>
+      <div>
+        <p>email: <a href="mailto:yaksean.dev@gmail.com">yaksean.dev@gmail.com</a></p>
+        <p>phone: <a href="tel:7144580071">+1 714 458 0071</a></p>
+      </div>
+    </div>
+    </div>
+    <script src="./static/javascript.js"></script>
+</body>
+</html>
